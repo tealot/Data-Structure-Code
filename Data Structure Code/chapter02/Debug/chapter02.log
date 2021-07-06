@@ -1,0 +1,6 @@
+﻿  chapter02.cpp
+C:\NoSystem\Project\Data Structure Code\Data Structure Code\chapter02\sequentialList.h(9,1): warning C4005: “OVERFLOW”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(967): message : 参见“OVERFLOW”的前一个定义
+C:\NoSystem\Project\Data Structure Code\Data Structure Code\chapter02\chapter02.cpp(14,31): warning C4305: “参数”: 从“double”到“float”截断
+C:\NoSystem\Project\Data Structure Code\Data Structure Code\chapter02\chapter02.cpp(16,27): warning C4305: “参数”: 从“double”到“float”截断
+  chapter02.vcxproj -> C:\NoSystem\Project\Data Structure Code\Data Structure Code\Debug\chapter02.exe
