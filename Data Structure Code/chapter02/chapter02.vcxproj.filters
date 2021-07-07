@@ -30,6 +30,9 @@
     <ClCompile Include="linkList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DuLNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="book.h">
@@ -42,6 +45,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="linkList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DuLNode.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

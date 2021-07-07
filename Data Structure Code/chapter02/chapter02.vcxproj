@@ -141,12 +141,14 @@
   <ItemGroup>
     <ClCompile Include="book.cpp" />
     <ClCompile Include="chapter02.cpp" />
+    <ClCompile Include="DuLNode.cpp" />
     <ClCompile Include="linkList.cpp" />
     <ClCompile Include="polynomial.cpp" />
     <ClCompile Include="sequentialList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="book.h" />
+    <ClInclude Include="DuLNode.h" />
     <ClInclude Include="linkList.h" />
     <ClInclude Include="polynomial.h" />
     <ClInclude Include="sequentialList.h" />

@@ -110,6 +110,63 @@ public:
 			r = p;
 		}
 	}
+	int ListLength()
+	{
+		int length = 0;
+		LinkList* p = this;
+		while (p)
+		{
+			p = p->next;
+			j++;
+		}
+	}
+	void MergeList(LinkList LB)
+	{
+		int m = this->ListLength();
+		int n = LB.ListLength();
+		for (int i = 0; i <= n; i + )
+		{
+			LinkList* e;
+			LB.GetElem(i, e);
+			if (!this->LocateElem(e))
+			{
+				this->ListInsert(++m, e);
+			}
+		}
+	}
+	LinkList* getNext()
+	{
+		return this->next;
+	}
+	T* getData()
+	{
+		return this->data;
+	}
+	void MergeList_L(LinkList& LB)
+	{
+		LinkList* pa = this->getNext();
+		LinkList* pb = LB.getNext();
+		LinkList* LC = this;
+		LinkList* pc = LC;
+		while (pa&&pb)
+		{
+			if (pa->getData() <= pb->getData())
+			{
+				pc->getNext() = pa;
+				pc = pa;
+				pa = pa->getNext();
+			}
+			else
+			{
+				pc->getNext() = pb;
+				pc = pb;
+				pb = pb->getNext();
+			}
+		}
+		pc->getNext() = pa ? pa : pb;
+		delete LB;
+	}
+
 
 private:
 	T data;
