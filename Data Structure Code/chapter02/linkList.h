@@ -166,7 +166,14 @@ public:
 		pc->getNext() = pa ? pa : pb;
 		delete LB;
 	}
-
+	void TraverseList()
+	{
+		if(this)
+		{
+			std::cout << this->getData() << std::endl;
+			TraverseList(this->getNext());
+		}
+	}
 
 private:
 	T data;

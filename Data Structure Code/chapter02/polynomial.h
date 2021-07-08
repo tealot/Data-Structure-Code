@@ -1,20 +1,24 @@
 #pragma once
 #include<iostream>
+
 using namespace std;
+class Polynomial;
+
 typedef Polynomial PNode;
+
 class Polynomial
 {
 public:
 	Polynomial();
 	~Polynomial();
 	void CreatePolyn(int n);
-	void setCoef()
+	void setCoef(float coef)
 	{
-		cin >> this->coef;
+		this->coef=coef;
 	}
-	void setExpn()
+	void setExpn(int expn)
 	{
-		cin >> this->expn;
+		this->expn=expn;
 	}
 	float getCoef()
 	{
@@ -24,6 +28,15 @@ public:
 	{
 		return this->expn;
 	}
+	Polynomial* getNext()
+	{
+		return this->next;
+	}
+	void setNext(Polynomial* p)
+	{
+		this->next = p;
+	}
+	void AddPolyn(Polynomial& pb);
 private:
 	float coef;
 	int expn;
@@ -47,8 +60,8 @@ void Polynomial::CreatePolyn(int n)
 	for (int i = 1; i <= n; i++)
 	{
 		PNode* s = new PNode();
-		s->setCoef();
-		s->setExpn();
+		s->setCoef(1);
+		s->setExpn(1);
 		pre = P;
 		q = P->next;
 		while (q && q->getExpn() < s->getExpn())
@@ -61,3 +74,49 @@ void Polynomial::CreatePolyn(int n)
 	}
 }
 
+void Polynomial::AddPolyn(Polynomial& pb)
+{
+	Polynomial* p1 = this->next;
+	Polynomial* p2 = pb.getNext();
+	Polynomial* p3 = this;
+	while (p1&& p2)
+	{
+		if (p1->getExpn() == p2->getExpn())
+		{
+			int sum = p1->getCoef() + p2->getCoef();
+			if (sum != 0)
+			{
+				p1->setCoef(sum);
+				p3->setNext(p1);
+				p3 = p1;
+				p1 = p1->getNext();
+				PNode* r = p2;
+				p2 = p2->getNext();
+				delete r;
+			}
+			else
+			{
+				PNode* r = p1;
+				p1 = p1->getNext();
+				delete r;
+				r = p2;
+				p2 = p2->getNext();
+				delete r;
+			}
+		}
+		else if (p1->getExpn() < p2->getExpn())
+		{
+			p3->setNext(p1);
+			p3 = p1;
+			p1 = p1->getNext();
+		}
+		else
+		{
+			p3->setNext(p2);
+			p3 = p2;
+			p2 = p2->getNext();
+		}
+	}
+	p3->setNext(p1 ? p1 : p2);
+	delete &pb;
+}
