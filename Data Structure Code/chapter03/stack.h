@@ -19,11 +19,10 @@ public:
 		this->base = new T[MAXSIZE];
 		if (!this->base)
 		{
-			exit();
+			exit(OVERFLOW);
 		}
 		this->top = this->base;
 		this->stacksize = MAXSIZE;
-		return OK;
 	}
 	~SqStack()
 	{
@@ -51,7 +50,18 @@ public:
 	{
 		if (this->top != this->base)
 		{
-			return *(this->top-1)
+			return *(this->top - 1);
+		}
+	}
+	Status StackEmpty()
+	{
+		if (this->top == this->base)
+		{
+			return OK;
+		}
+		else
+		{
+			return ERROR;
 		}
 	}
 

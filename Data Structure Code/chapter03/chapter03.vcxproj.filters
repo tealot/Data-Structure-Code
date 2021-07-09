@@ -24,6 +24,18 @@
     <ClCompile Include="hanoi.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="EvaluateExpression.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Matching.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="conversion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DancePartner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stack.h">
@@ -33,6 +45,24 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="hanoi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SqQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EvaluateExpression.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Matching.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="conversion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DancePartner.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -3,11 +3,30 @@
 
 #include <iostream>
 #include "hanoi.h"
+#include "EvaluateExpression.h"
+#include "Matching.h"
+#include "conversion.h"
+
+
 
 int main()
 {
     std::cout << "Hello World!\n";
-    Hanoi(5, 'A', 'B', 'C');
+
+    //Hanoi(5, 'A', 'B', 'C');
+    
+    //LinkQueue<int> l;
+    //l.EnQueue(1);
+    //l.EnQueue(2);
+    //l.EnQueue(3);
+    //cout << l.getHead()<<endl;
+    //cout << l.getHead()<<endl;
+    
+    //conversion(6443);
+
+    //cout << Matching();
+
+    cout << EvaluateExpression();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

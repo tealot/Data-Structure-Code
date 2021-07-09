@@ -140,11 +140,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="chapter03.cpp" />
+    <ClCompile Include="conversion.cpp" />
+    <ClCompile Include="DancePartner.cpp" />
+    <ClCompile Include="EvaluateExpression.cpp" />
     <ClCompile Include="hanoi.cpp" />
+    <ClCompile Include="Matching.cpp" />
     <ClCompile Include="stack.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="conversion.h" />
+    <ClInclude Include="DancePartner.h" />
+    <ClInclude Include="EvaluateExpression.h" />
     <ClInclude Include="hanoi.h" />
+    <ClInclude Include="LinkQueue.h" />
+    <ClInclude Include="Matching.h" />
+    <ClInclude Include="SqQueue.h" />
     <ClInclude Include="stack.h" />
     <ClInclude Include="stacknode.h" />
   </ItemGroup>
