@@ -1,0 +1,10 @@
+baabaa   bbaabbba  YES
+baabaa   aaabbbba  YES
+aabbaabb   abceaabb  YES
+aabbaabb   abaabcea  YES
+abcdabcd   cdabbbab  YES
+abcdabcd   cabbbbab  NO
+abcdeabcde   bcdedbda  NO
+accacc   bdedbcda  NO
+cdecde   cdcdcdec  YES
+ccedcced   cdccdcce  YES

@@ -22,7 +22,6 @@ public:
 			exit(OVERFLOW);
 		}
 		this->front = this->rear = 0;
-		return OK;
 	}
 	~SqQueue();
 	int QueueLength()
@@ -51,11 +50,10 @@ public:
 	}
 	T GetHead()
 	{
-		if (this->front == this->rear)
+		if (this->front != this->rear)
 		{
-			return ERROR;
+			return this->base[this->front];
 		}
-		return this->base[this->front];
 	}
 private:
 	T* base;
