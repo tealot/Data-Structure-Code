@@ -46,6 +46,29 @@
 
 ### 第四章 串、数组和广义表
 
+1. SString 顺序串 :white_check_mark:
+2. HString 堆串 **仅定义**
+3. LString 链串 **仅定义**
+4. Chunk 链块 **仅定义**
+5. Brute-Force（BF）模式匹配算法 :white_check_mark:（SString中）
+6. KMP模式匹配算法 :white_check_mark:（SString中）
+7. GList 广义表 **仅定义**
+8. Virus 病毒感染问题 :white_check_mark:
+
+### 第五章 树和二叉树
+
+//TODO
+
+### 第六章 图
+
+//TODO
+
+### 第七章 查找
+
+//TODO
+
+### 第八章 排序
+
 //TODO
 
 ## 作者介绍
