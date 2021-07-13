@@ -1,5 +1,23 @@
-﻿  DancePartner.cpp
+﻿  chapter03.cpp
+C:\NoSystem\Project\Data Structure Code\Data Structure Code\chapter03\stack.h(9,1): warning C4005: “OVERFLOW”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(967): message : 参见“OVERFLOW”的前一个定义
+  conversion.cpp
+C:\NoSystem\Project\Data Structure Code\Data Structure Code\chapter03\stack.h(9,1): warning C4005: “OVERFLOW”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(967): message : 参见“OVERFLOW”的前一个定义
+  DancePartner.cpp
 C:\NoSystem\Project\Data Structure Code\Data Structure Code\chapter03\SqQueue.h(9,1): warning C4005: “OVERFLOW”: 宏重定义
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(967): message : 参见“OVERFLOW”的前一个定义
+  EvaluateExpression.cpp
+C:\NoSystem\Project\Data Structure Code\Data Structure Code\chapter03\stack.h(9,1): warning C4005: “OVERFLOW”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(967): message : 参见“OVERFLOW”的前一个定义
+  hanoi.cpp
+  Matching.cpp
+C:\NoSystem\Project\Data Structure Code\Data Structure Code\chapter03\stack.h(9,1): warning C4005: “OVERFLOW”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(967): message : 参见“OVERFLOW”的前一个定义
+  stack.cpp
+  正在生成代码...
+C:\NoSystem\Project\Data Structure Code\Data Structure Code\chapter03\stack.h(55): warning C4715: “SqStack<char>::GetTop”: 不是所有的控件路径都返回值
+C:\NoSystem\Project\Data Structure Code\Data Structure Code\chapter03\stack.h(55): warning C4715: “SqStack<char>::GetTop”: 不是所有的控件路径都返回值
+C:\NoSystem\Project\Data Structure Code\Data Structure Code\chapter03\stack.h(55): warning C4715: “SqStack<double>::GetTop”: 不是所有的控件路径都返回值
 C:\NoSystem\Project\Data Structure Code\Data Structure Code\chapter03\SqQueue.h(57): warning C4715: “SqQueue<Person>::GetHead”: 不是所有的控件路径都返回值
   chapter03.vcxproj -> C:\NoSystem\Project\Data Structure Code\Data Structure Code\Debug\chapter03.exe

@@ -1,4 +1,11 @@
 ﻿  chapter04.cpp
 C:\NoSystem\Project\Data Structure Code\Data Structure Code\chapter04\SString.h(9,1): warning C4005: “OVERFLOW”: 宏重定义
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(967): message : 参见“OVERFLOW”的前一个定义
+  SString.cpp
+C:\NoSystem\Project\Data Structure Code\Data Structure Code\chapter04\SString.h(9,1): warning C4005: “OVERFLOW”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(967): message : 参见“OVERFLOW”的前一个定义
+  Virus.cpp
+C:\NoSystem\Project\Data Structure Code\Data Structure Code\chapter04\SString.h(9,1): warning C4005: “OVERFLOW”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(967): message : 参见“OVERFLOW”的前一个定义
+  正在生成代码...
   chapter04.vcxproj -> C:\NoSystem\Project\Data Structure Code\Data Structure Code\Debug\chapter04.exe
